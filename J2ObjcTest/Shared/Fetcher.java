@@ -20,7 +20,6 @@ public class Fetcher {
 
     @ObjectiveCName("fetch:")
     public @Nullable String fetch(@Nonnull String segment) {
-//    public String fetch(String segment) {
         HttpURLConnection connection = null;
         BufferedReader reader = null;
 

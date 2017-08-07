@@ -6,12 +6,11 @@
 //  Copyright © 2017 Ernesto Torres. All rights reserved.
 //
 
-//J2OBJC_HOME = /Users/ernesto.torres/Documents/j2objc-master/dist
 J2OBJC_HOME = /Users/ernesto.torres/Documents/j2objc-2.0.1
 
 J2OBJC_NULLABILITY = ${J2OBJC_HOME}/lib/jsr305-3.0.0.jar
 
-HEADER_SEARCH_PATHS = "${J2OBJC_HOME}/frameworks/JRE.framework/Headers";
+HEADER_SEARCH_PATHS = "${J2OBJC_HOME}/include";
 FRAMEWORK_SEARCH_PATHS = "${J2OBJC_HOME}/frameworks";
 LIBRARY_SEARCH_PATHS = "${J2OBJC_HOME}/lib";
 OTHER_LDFLAGS = -ljre_emul -liconv -framework Security -ljsr305 -lz
